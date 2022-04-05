@@ -12,14 +12,14 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<title>Red Store</title>
+<title> All Products</title>
 </head>
 <body>
-    <div class="header">
+    
 <div class="container">
     <div class="navbar">
         <div class="logo">
-           <a href="index.html"> <img src="images/logo.png" width="125px"></a>
+          <a href="index.html">  <img src="images/logo.png" width="125px"></a>
             
         </div>
         <nav>
@@ -27,17 +27,16 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="products.html">PRODUCTS</a></li>
                 <li><a href="#">CONTACT</a></li>
-                <li><a href="#">ABOUT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
                 <li><a href="account.html">ACCOUNT</a></li>
             </ul>
         </nav>
-       <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"></a>
+
+      <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"></a> 
         <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
     </div>
-  
+    
 </div>
-</div>
-
 
 
 
@@ -54,11 +53,44 @@
             <option>sort by sale</option>
         </select>
     </div>
- 
+
+
+
+    <!-- Navbar section -->
+
+
+<!-- Sidebar filter section -->
+<section id="sidebar">
+   
+    <div class="col-4">
+        <h6 class="font-weight-bold">categories </h6>
+        <div id="orange"><span class="fa fa-minus"></span></div>
+        <form>
+             <input type="checkbox"> <label for="male">Male</label> 
+             <input type="checkbox" > <label for="female">Female</label> 
+             <input type="checkbox" > <label for="kids">Kids</label> 
+        </form>
+    </div>
+    <div class="col-4">
+        <h6 class="font-weight-bold">Size</h6>
+        <div id="orange"><span class="fa fa-minus"></span></div>
+        <form >
+             <input type="checkbox" > <label for="s">S</label> 
+             <input type="checkbox" > <label for="m">M</label>
+             <input type="checkbox" > <label for="l">L</label> 
+            <input type="checkbox" > <label for="xl">XL</label> 
+            <input type="checkbox" > <label for="xxl">XXL</label> 
+        </form>
+    </div>
+   
+</section>
+
+<!-- -------test----------- -->
+   
     <div class="row">
  <div class="col-4">
-           <a href="product-details.html"><img src="images/whitet.jpg"></a> 
-            <h4> White T-Shirt </h4>
+           <a href="product-details.html"><img src="images/product-1.jpg"></a> 
+            <h4> Red Printed T-Shirt </h4>
             <div class="rating">
                 <i class="fa fa-star" ></i>
                 <i class="fa fa-star" ></i>
@@ -67,12 +99,12 @@
                 <i class="fa fa-star-o"></i>
 
             </div>
-        <p>Nrs.1300</p>
+        <p>Nrs.1200</p>
 
         </div>
 <div class="col-4">
-            <img src="images/sweater.jpg">
-            <h4>Ladies Sweater</h4>
+            <img src="images/product-2.jpg">
+            <h4>Gold Star shoes</h4>
             <div class="rating">
                 <i class="fa fa-star" ></i>
                 <i class="fa fa-star" ></i>
@@ -81,25 +113,25 @@
                 <i class="fa fa-star-o"></i>
 
             </div>
-        <p>Nrs.1900</p>
+        <p>Nrs.1700</p>
 
         </div>
 
         <div class="col-4">
-            <img src="images/topi.jpg">
-            <h4>wollen Topi</h4>
+            <img src="images/product-3.jpg">
+            <h4>Puma Trouser</h4>
             <div class="rating">
                 <i class="fa fa-star" ></i>
                 <i class="fa fa-star" ></i>
-                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
                 <i class="fa fa-star-o" ></i>
                 <i class="fa fa-star-o"></i>
 
             </div>
-        <p>Nrs.650</p>
+        <p>Nrs.1550</p>
 
         </div>
-        <div class="col-4">
+        <!-- <div class="col-4">
             <img src="images/product-4.jpg">
             <h4>Blue Puma T-Shirt</h4>
             <div class="rating">
@@ -112,7 +144,7 @@
             </div>
         <p>Nrs.1350</p>
 
-        </div>
+        </div> -->
     </div>
 
 
@@ -161,7 +193,8 @@
                <p>Nrs.1550</p>
        
                </div>
-               <div class="col-4">
+
+               <!-- <div class="col-4">
                    <img src="images/product-8.jpg">
                    <h4>Blue Puma T-Shirt</h4>
                    <div class="rating">
@@ -174,7 +207,7 @@
                    </div>
                <p>Nrs.1350</p>
        
-               </div>
+               </div> -->
            </div>
     
            <div class="row">
@@ -221,7 +254,8 @@
                    <p>Nrs.1550</p>
            
                    </div>
-                   <div class="col-4">
+
+                   <!-- <div class="col-4">
                        <img src="images/product-12.jpg">
                        <h4>Blue Puma T-Shirt</h4>
                        <div class="rating">
@@ -234,34 +268,22 @@
                        </div>
                    <p>Nrs.1350</p>
            
-                   </div>
+                   </div> -->
                </div>
+
                <div class="page-btn">
-             <a href="products.html"> <span>1</span></a> 
-              <a href="page2.html">  <span>2</span></a>
-               <a href="page3.html"> <span>3</span></a>
-              <a href="products.html"> <span>4</span></a> 
-                <span>&#8594;</span>
+                 <a href="products.html"> <span>1</span></a>
+                  <a href="page2.html"> <span>2</span></a>
+                <a href="page3.html"> <span>3</span></a>  
+                  <a href="products.html"><span>4</span></a> 
+                   <span>&#8594;</span>
 
+               </div>
             </div>
+    
+    <!-- ----back to top------ -->
+<a href="index.html" class="back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-<!-- ----back to top------ -->
-<a href="index.html" class="back-to-top" ><i class="fa fa-arrow-up"></i></a>
 
 <!-- ----footer------ -->
 <div class="footer">
